@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="homepage.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form>
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Log In</button>
+      </form>
+    </div>
+    <script src="homepage.js"></script>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script>
+function onSignIn(googleUser) {
+  // This is where you handle the user sign-in data returned by the Google API.
+}
+</script>
+  </body>
+</html>
