@@ -53,4 +53,10 @@
   button[type="submit"]:hover {
     background-color: #3e8e41;
   }
+
+  body {
+    background-image: url("images/Screenshot_20230205-173300_WhatsAppBusiness.jpg");
+    background-size: cover;
+  }
+  
   
